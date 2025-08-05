@@ -1,0 +1,8 @@
+# 这是你的 Worker 的名字，你可以根据喜好修改
+name = "cf-workers-proxy"
+
+# 这是最关键的一行，它告诉 Wrangler 你的入口文件是 _worker.js
+main = "_worker.js"
+
+# 兼容性日期，保持为当前日期即可
+compatibility_date = "2025-08-05"
